@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "name": "Basic Plan",
+    "price": "₹999 / month",
+    "description": "Perfect for beginners starting their fitness journey with essential access.",
+    "features": [
+      "Access to gym floor (6 AM – 9 PM)",
+      "Free fitness assessment",
+      "Locker facility",
+      "1 personal trainer session per month",
+      "Access to cardio and strength area",
+      "Basic shower and changing room access",
+      "Weekly progress tracking",
+      "Free Wi-Fi access"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Standard Plan",
+    "price": "₹1799 / month",
+    "description": "Ideal for regular gym-goers who want flexible access and additional support.",
+    "features": [
+      "24/7 gym access",
+      "Free group fitness classes (Zumba, Yoga, HIIT)",
+      "2 personal trainer sessions per month",
+      "Sauna & steam room access",
+      "Diet & nutrition consultation",
+      "Advanced body composition analysis",
+      "Access to massage chair zone",
+      "Unlimited locker usage",
+      "Priority booking for classes"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Premium Plan",
+    "price": "₹2499 / month",
+    "description": "All-inclusive option designed for serious fitness enthusiasts and athletes.",
+    "features": [
+      "Unlimited personal training sessions",
+      "24/7 gym access with priority entry",
+      "Customized diet & fitness plans",
+      "Access to all premium classes",
+      "Complimentary gym merchandise",
+      "Guest pass (2/month)",
+      "Private locker and towel service",
+      "Access to spa & recovery zone",
+      "One-on-one physiotherapy consultation per month",
+      "Free participation in gym events and competitions"
+    ]
+  }
+]

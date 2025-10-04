@@ -37,7 +37,7 @@ const NavBar = () => {
     <Link key={route.id} route={route}></Link>
   ));
   return (
-    <nav className="flex justify-between mx-10 text-black">
+    <nav className="flex justify-between mx-10 mt-10 text-black">
       <span className="flex items-center" onClick={() => setOpen(!open)}>
         {open ? (
           <X className="md:hidden"></X>
@@ -49,8 +49,7 @@ const NavBar = () => {
            ${open ? "top-8" : "-top-40"}
             bg-amber-200`}
         >
-          {" "}
-          {links}{" "}
+          {links}
         </ul>
         <h3 className="ml-4 text-white">My Navbar</h3>
       </span>
