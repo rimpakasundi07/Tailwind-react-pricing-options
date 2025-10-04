@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "lucide-react";
 
 const navigationData = [
   {
@@ -30,26 +31,14 @@ const navigationData = [
 
 const NavBar = () => {
   return (
-    <nav>
-      <ul>
+    <nav className="flex justify-between mx-10">
+      <h3>My Navbar</h3>
+      <ul className="flex">
         {navigationData.map((route) => (
-          <li className="mr-10">
-            <a href={route.path}>{route.name}</a>
-          </li>
+          <Link key={route.id} route={route}></Link>
         ))}
       </ul>
-
-      {/* <ul className="flex">
-        <li className="mr-10">
-          <a href="/">Home</a>
-        </li>
-        <li className="mr-10">
-          <a href="/about">About</a>
-        </li>
-        <li className="mr-10">
-          <a href="/blog">Blog</a>
-        </li>
-      </ul> */}
+      <button>Sign In</button>
     </nav>
   );
 };
