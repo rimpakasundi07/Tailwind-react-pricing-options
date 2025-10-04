@@ -37,18 +37,25 @@ const NavBar = () => {
     <Link key={route.id} route={route}></Link>
   ));
   return (
-    <nav className="flex justify-between mx-10">
+    <nav className="flex justify-between mx-10 text-black">
       <span className="flex items-center" onClick={() => setOpen(!open)}>
         {open ? (
           <X className="md:hidden"></X>
         ) : (
           <Menu className="md:hidden"></Menu>
         )}
-        <ul className="md:hidden"> {links} </ul>
-        <h3 className="ml-4">My Navbar</h3>
+        <ul
+          className={`md:hidden absolute duration-1000
+           ${open ? "top-8" : "-top-40"}
+            bg-amber-200`}
+        >
+          {" "}
+          {links}{" "}
+        </ul>
+        <h3 className="ml-4 text-white">My Navbar</h3>
       </span>
-      <ul className="md:flex hidden  ">{links}</ul>
-      <button>Sign In</button>
+      <ul className="md:flex hidden text-white">{links}</ul>
+      <button className="text-white">Sign In</button>
     </nav>
   );
 };
