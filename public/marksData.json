@@ -1,0 +1,88 @@
+[
+  {
+    "id": 1,
+    "name": "Amit Sharma",
+    "marks": { "Physics": 85, "Chemistry": 78, "Math": 92 }
+  },
+  {
+    "id": 2,
+    "name": "Riya Das",
+    "marks": {
+      "Physics": 90,
+      "Chemistry": 88,
+      "Math": 95
+    }
+  },
+  {
+    "id": 3,
+    "name": "Sourav Ghosh",
+    "marks": {
+      "Physics": 76,
+      "Chemistry": 82,
+      "Math": 70
+    }
+  },
+  {
+    "id": 4,
+    "name": "Priya Sen",
+    "marks": {
+      "Physics": 88,
+      "Chemistry": 91,
+      "Math": 85
+    }
+  },
+  {
+    "id": 5,
+    "name": "Arjun Patel",
+    "marks": {
+      "Physics": 95,
+      "Chemistry": 89,
+      "Math": 97
+    }
+  },
+  {
+    "id": 6,
+    "name": "Neha Roy",
+    "marks": {
+      "Physics": 81,
+      "Chemistry": 75,
+      "Math": 83
+    }
+  },
+  {
+    "id": 7,
+    "name": "Rahul Nair",
+    "marks": {
+      "Physics": 67,
+      "Chemistry": 72,
+      "Math": 65
+    }
+  },
+  {
+    "id": 8,
+    "name": "Tanvi Mehta",
+    "marks": {
+      "Physics": 90,
+      "Chemistry": 85,
+      "Math": 88
+    }
+  },
+  {
+    "id": 9,
+    "name": "Karan Gupta",
+    "marks": {
+      "Physics": 73,
+      "Chemistry": 68,
+      "Math": 77
+    }
+  },
+  {
+    "id": 10,
+    "name": "Mitali Bose",
+    "marks": {
+      "Physics": 86,
+      "Chemistry": 80,
+      "Math": 89
+    }
+  }
+]
