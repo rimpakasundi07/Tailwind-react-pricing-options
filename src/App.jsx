@@ -3,6 +3,7 @@ import "./App.css";
 import DaisyNav from "./components/DaisyNav/DaisyNav";
 import NavBar from "./components/NavBar/NavBar";
 import PricingOptions from "./components/PricingOptions/PricingOptions";
+import ResultChart from "./components/ResultChart/ResultChart";
 
 // promise
 
@@ -21,6 +22,7 @@ function App() {
         >
           <PricingOptions pricingPromise={pricingPromise}></PricingOptions>
         </Suspense>
+        <ResultChart></ResultChart>
       </main>
     </>
   );
